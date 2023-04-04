@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mySQLdemo.iml" filepath="$PROJECT_DIR$/mySQLdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login - Signup feature.iml" filepath="$PROJECT_DIR$/Login - Signup feature.iml" />
     </modules>
   </component>
 </project>

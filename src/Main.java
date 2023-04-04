@@ -17,7 +17,7 @@ public class Main {
 //        Signup signup = new Signup(enterUserName, enterPassword, enterEmail);
 //        signup.createAccount();
         Login login = new Login(enterUserName, enterPassword);
-        System.out.println(login.isValid()); 
+        System.out.println(login.isValid());
     }
 
 
