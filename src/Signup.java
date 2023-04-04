@@ -2,13 +2,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Signup extends Login{
+public class Signup {
     private String _username;
     private String _password;
     private String _email;
 
     public Signup(String enterUserName, String enterPassword, String enterEmail) {
-        super(enterUserName, enterPassword);
+        _username = enterUserName;
+        _password = enterPassword;
         _email = enterEmail;
     }
     void createAccount() throws SQLException {

@@ -1,7 +1,5 @@
 import java.sql.*;
 import java.util.Scanner;
-
-
 public class Main {
     public static void main(String[] args) throws SQLException {
 
@@ -16,11 +14,10 @@ public class Main {
         System.out.println("Nhap email: ");
         String enterEmail = sc.nextLine();
 
-//        Login login = new Login(enterUserName, enterPassword);
-//        System.out.println(login.isValid());
-        System.out.println(enterUserName);
-        Signup signup = new Signup(enterUserName, enterPassword, enterEmail);
-        signup.createAccount();
+//        Signup signup = new Signup(enterUserName, enterPassword, enterEmail);
+//        signup.createAccount();
+        Login login = new Login(enterUserName, enterPassword);
+        System.out.println(login.isValid()); 
     }
 
 
