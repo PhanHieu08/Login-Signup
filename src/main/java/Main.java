@@ -2,8 +2,8 @@ import java.sql.*;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws SQLException {
-
-        new DBconnect();
+// Hieu branch
+        DBconnect connection = new DBconnect();
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap ten dang nhap: ");
         String enterUserName = sc.nextLine();
@@ -16,8 +16,16 @@ public class Main {
 
 //        Signup signup = new Signup(enterUserName, enterPassword, enterEmail);
 //        signup.createAccount();
+
         Login login = new Login(enterUserName, enterPassword);
         System.out.println(login.isValid());
+//        Statement stmt = DBconnect.connection.createStatement();
+//
+//        ResultSet rs = stmt.executeQuery("SELECT * FROM users");
+//
+//        while (rs.next()) {
+//            System.out.println(rs.getString(1) + " " + rs.getString(3) + " " + rs.getString(2));
+//        }
     }
 
 
