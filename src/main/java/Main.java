@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws SQLException {
 // Hieu branch
-        DBconnect connection = new DBconnect();
+        DBconnect connection = new DBconnect;
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap ten dang nhap: ");
         String enterUserName = sc.nextLine();
